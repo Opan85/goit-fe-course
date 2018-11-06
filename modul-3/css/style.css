@@ -8,9 +8,6 @@ html {
     margin: 0;
     padding: 0;
     background-image: url(../img/layer.jpg);
-    
-    
-   
 }
 
 .wrapper {
@@ -19,7 +16,6 @@ html {
     margin-top: 100px;
     margin: 0 auto;
     width: 900px;
-    
 }
 .header {
     display: inline-block;
@@ -27,20 +23,16 @@ html {
     font-size: 14px;
     margin: 0 auto;
     padding: 130px;
-    
 }
 
-.nav-list:not(:last-child){
+.nav-list:not(:last-child) {
     margin-right: 100px;
 }
 
 .nav-list a {
     text-decoration: none;
     color:rgb(98,98,98);
-    
 }
-
-
 
 .nav-list {
     display: inline-block;
@@ -48,11 +40,10 @@ html {
     list-style: none;
     vertical-align: middle;
     font-size: 14px;
-    
 }
 .nav-list a:hover,
 .nav-list a:focus {
-    color:purple;
+    color:#5A3791;
 }
 
 .gallery {
@@ -66,23 +57,14 @@ html {
     font-weight: 100px;
     margin: 24px ;
     margin-left: auto;
-
 }
-
-.article {
-    margin: 0;
-    padding: 0;
-    
-}
-
 .article {
     display: inline-block;
-    
     width: 420px;
     margin-right: 60px;
 }
 
-.article:not(:nth-last-child(-n+2)){
+.article:not(:nth-last-child(-n+2)) {
     margin-bottom: 130px;
 }
 .article:nth-child(2n) {
@@ -92,14 +74,10 @@ html {
 .article-text {
     font-size:30px;
     margin-bottom: 24px;
-    
-    
 }
 .gallary-text {
     font-size: 14px;
     line-height: 24px;
-    
-    
 }
 
 .footer {
@@ -107,19 +85,14 @@ html {
     box-sizing: border-box;
     padding-top: 56px;
     padding-bottom: 70px;
-    
     text-align: center;
-    
-    
 }
 
 .button {
-    /* display: inline-block; */
     border: solid 1px;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     width: 164px;
     height: 60px;
     cursor: pointer;
-    
 }
