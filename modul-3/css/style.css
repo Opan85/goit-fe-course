@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after { 
@@ -17,6 +18,7 @@ html {
     margin: 0 auto;
     width: 900px;
 }
+
 .header {
     display: inline-block;
     width: 900px;
@@ -41,6 +43,7 @@ html {
     vertical-align: middle;
     font-size: 14px;
 }
+
 .nav-list a:hover,
 .nav-list a:focus {
     color:#5A3791;
@@ -48,7 +51,6 @@ html {
 
 .gallery {
     font-size: 0;
-    
 }
 
 .category {
@@ -58,6 +60,7 @@ html {
     margin: 24px ;
     margin-left: auto;
 }
+
 .article {
     display: inline-block;
     width: 420px;
@@ -67,6 +70,7 @@ html {
 .article:not(:nth-last-child(-n+2)) {
     margin-bottom: 130px;
 }
+
 .article:nth-child(2n) {
     margin-right: 0;
 }
@@ -75,6 +79,7 @@ html {
     font-size:30px;
     margin-bottom: 24px;
 }
+
 .gallary-text {
     font-size: 14px;
     line-height: 24px;
