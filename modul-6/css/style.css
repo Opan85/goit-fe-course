@@ -1,0 +1,282 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6em;
+}
+
+body {
+    background: #fdfff2;
+}
+
+header {
+    padding: 50px 5px 130px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.menu a {
+   padding: 12px 20px;
+   color: #95e1d3;
+   text-transform: uppercase;
+   transition:  200ms linear;
+}
+
+.logo a {
+   font-size: 30px;
+   font-weight: 700;
+   color: #95e1d3;
+}
+
+.menu a::after {
+   content: '';
+   position: absolute;
+   width: 12% ;
+   height: 3px;
+   bottom: 0;
+   background-color:#f38181;
+   transform: translateX(-100%) translateY(6px);
+   opacity: 0;
+   transition: 200ms linear; 
+}
+
+.menu li:hover a::after {
+   opacity: 1;
+   color: #f38181;
+
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: #f38181;
+}
+
+.service, .carsd {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.service-title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 48px;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 60px;
+    left: 50%;
+    background-color: #f38181;
+    transform: translateX(-50%);
+}
+
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-info {
+    display: flex;
+    align-items: flex-start;
+    width: 320px;
+    margin-bottom: 100px;
+    position: relative;
+    flex-basis: 33%;
+}
+
+.icon-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+.icon-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #b5b5b5;
+}
+ 
+.service-icon img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.service-icon {
+    padding: 0 20px;
+}
+
+.Cards-title {
+    padding-bottom: 50px;
+}
+
+.subtitles-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #b5b5b5;
+    margin-bottom: 100px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-image {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.name-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.prof-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 3em;
+    color: #b3b3b3;
+}
+
+.card-conteiner {
+    position: relative;
+    width: 380px; 
+    height: 472px;
+}
+
+.card-conteiner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #95e1d3;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.card-conteiner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 360deg, rgba(252,227,138,0.9 ) 0%,  rgba(243,129,129, 0.9) 100%);
+    transition: 200ms linear;
+    opacity: 0;
+}
+  
+.card-conteiner:hover::before, 
+.card-conteiner:hover .image{
+    cursor: pointer;
+    top: -10px;
+    left: -10px;
+    opacity: 1;
+    z-index:2;
+    opacity: 0.9;
+}
+
+
+.card-conteiner:hover::after {
+    cursor: pointer;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+
+.social-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:206px ;
+    left: 78px;
+    cursor: pointer;
+}
+  
+.social-icon {
+    position: relative;
+    height: 56px;
+    width: 56px;
+    background-color: #fce38a;
+    margin:0 1px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity  200ms linear;
+}
+
+.card-conteiner:hover .social-icon {
+    opacity: 1;
+    background-color: #95e1d3;
+    
+}
+
+
+
+
+.icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+   
+}
+
+.icon-fb {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
