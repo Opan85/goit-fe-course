@@ -204,6 +204,9 @@ span {
 }
 
 .conteiner{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
     width: 255px;
     display: flex;
     justify-content: space-between;
@@ -212,8 +215,6 @@ span {
 .item {
     background-color: #323232;
     color: #ffffff;
-    font-size: 18px;
-    font-weight: 900;
     flex-basis: 201px;
     align-items: center;
     height: 40px;
@@ -223,8 +224,6 @@ span {
 .price {
     background-color: #8c8c8c;
     color: #ffffff;
-    font-size: 18px;
-    font-weight: 900;
     flex-basis: 54px;
     padding: 5px 10px;
     text-transform: uppercase;
@@ -237,6 +236,7 @@ span {
     margin: auto;
     text-transform: uppercase;
 }
+
 .conteiner:hover {
     background: #1abc9c;
 }
@@ -245,7 +245,6 @@ img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .cards::after {
@@ -310,7 +309,7 @@ img {
 
 .conteiner-text {
     width: 170px;
-    padding-left: 60px;
+    padding-left: 50px;
 }
 
 .conteiner-text:hover {
@@ -319,6 +318,7 @@ img {
 }
 
 .text {
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 14px;
     height: 50px;
@@ -340,10 +340,13 @@ img {
     font-weight: 400;
 }
 
-.last-span {
+.link {
     color: #1abc9c;
     font-family:'Open Sans', sans-serif;
     font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+
 }
 
 
