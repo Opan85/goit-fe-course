@@ -201,4 +201,5 @@ span {
     margin-bottom: 46px;
     border-radius: 3px;
     border-color:  transparent;
+    cursor: pointer;
 }
