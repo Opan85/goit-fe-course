@@ -319,6 +319,10 @@ img {
     font-weight: 400; 
 }
 
+form {
+    display: flex;
+}
+
 input[type=email] {
     width: 230px;
     height: 40px;
@@ -331,7 +335,7 @@ input[type=email] {
     color: #e7e7e7;
 }
 
-input[type="submit"] {
+button {
     height: 40px;
     width: 150px;
     background-color: #95e1d3;
@@ -341,8 +345,13 @@ input[type="submit"] {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    transition: width 200ms linear;
 }
 
+button:hover {
+   width: 160px;
+   background-color: #f59191;
+}
 
 
 
