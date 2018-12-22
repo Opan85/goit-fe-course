@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url(/img/bg-pc.png);
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.header{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.logo a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+.menu {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+}
+
+.nav-inner {
+    margin-right: 36px;
+}
+
+.nav-inner:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    height: 36px;
+    width: 90px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 0 5 px;
+    line-height: 30px;
+    position: relative;
+    color: #ffffff;
+    transition: border 200ms linear;
+}
+
+.nav-link:hover {
+    border: 3px solid #ffffff;
+}
+
+.navigation {
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.title {
+    margin-top: 40px;
+    max-width: 320px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.head-title {
+    Font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.subtitle-title {
+    margin-top: 20px;
+    color: #faf7f6;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 0 20px;
+}
+
+.btn-first {
+    margin-top: 20px;
+    max-width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    color: #ffffff;
+    font-size: 13.99px;
+    line-height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 20px auto 0; 
+    padding: 0 10px;
+}
+ /* Section content */
+.cards {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.second-title {
+    padding-top: 70px;
+    text-align: center;
+    color: #333333;
+    Font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 21.98px;
+    display: block;
+    width: 81.25%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.article-cards {
+    width: 68.75%;
+    text-align: center;
+    margin:20px auto;
+    transition: box-shadow 200ms linear;
+    padding: 10px;
+}
+
+.article-cards:hover {
+    box-shadow: 0 14px 28px rgba(175, 171, 171, 0.281), 0 10px 10px rgba(163, 157, 157, 0.22);
+}
+
+.article-cards:nth-last-child(4n+2) {
+    margin-bottom: 0;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.icon {
+    display: block;                   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.icon-wrapper {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    bottom:-5%;
+    left: 60%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.red {
+    background-color: #ff4e50;
+}
+
+.green {
+    background-color: #1cd7ad;
+}
+
+.yellow {
+    background-color: #ffa507;
+}
+
+.blue {
+    background-color: #4e73db;
+}
+
+h3 {
+    Font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    margin: 20px 0;
+    color: #333333;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 13,95px;
+    color: #969696;
+}
+
+.btn-second {
+    max-width: 280px;
+    height: 40px;
+    border: 1px solid #ff4e50;
+    margin: 30px auto 54px;
+    Font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.btn-second a{
+    color: #ff4e50;
+    font-size: 13.99px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+

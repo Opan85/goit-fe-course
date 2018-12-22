@@ -1,0 +1,141 @@
+@media (min-width: 768px) { 
+    
+    .wrapper {
+        background-image: url(/img/bg-pc.png);
+        min-width: 748px;
+    }
+
+    .header {
+        max-width: 660px;
+        margin: auto;
+    }
+
+    .navigation {
+       display: flex;
+       flex-direction: row;
+       align-items: baseline;
+    }
+
+    .logo a {
+        margin-top: 0; 
+    }
+    
+    .nav-inner {
+        margin-right: 60px;
+    }
+    
+    .title {
+        max-width: 492px;
+        margin: 164px auto 0;
+        padding-bottom: 218px;
+    }
+    
+    .head-title {
+       font-size: 47px; 
+    }
+    
+    .subtitle-title {
+        margin-top: 40px;
+        font-size: 23.99px;
+    }
+    
+    .btn-first {
+        margin-top: 40px;
+        max-width: 226px;
+        font-size: 13.99px;
+    }
+
+    .cards {
+        max-width: 492px;
+    }
+    
+    .second-title {
+        width: 82.113%;
+    }
+    
+    .conteiner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article-cards {
+        width:47.967479%;
+        margin:30px auto;
+    }
+    
+    .article-cards:not(:nth-last-child(-n+2)) {  
+        margin-bottom: 0;
+    }
+    
+    .btn-second {
+        max-width: 280px;
+    }
+}
+
+@media (min-width:940px) {
+    
+    .wrapper {
+        background-image: url(/img/bg-pc.png);
+        max-width: 100%;
+    }
+    .header {
+        max-width: 940px;
+    }
+
+    .navigation {
+       display: flex;
+       flex-direction: row;
+       align-items: baseline;
+    }
+
+    .logo a {
+        margin-top: 0;  
+    }
+    
+    .nav-inner {
+        margin-right: 60px;
+    }
+    
+    .title {
+        max-width: 532px;
+        margin: 164px auto 0;
+        padding-bottom: 218px;
+    }
+    
+    .head-title {                  
+       font-size: 51px; 
+    }
+    
+    .subtitle-title {
+        margin-top: 40px;
+        font-size: 24px;
+    }
+    
+    .btn-first {
+        margin-top: 40px;
+        max-width: 226px;
+        font-size: 13.99px;
+    }
+
+    .cards {
+        max-width: 940px;
+    }
+    
+    .second-title {
+        width: 48.9361%;
+    }
+    
+    .conteiner {
+        display: flex;
+    }
+
+    .article-cards{
+        width:23.404%;
+        margin:30px auto 30px;
+    }
+    
+    .article-cards:not(:nth-last-child(-n+2)) {  
+        margin-bottom: 0;
+    }
+}
+
