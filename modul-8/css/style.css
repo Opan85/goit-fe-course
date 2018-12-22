@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-    background-image: url(img/bg-pc.png);
+    background-image: url(../img/bg-pc.png);
     background-color: #333333;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,10 +105,7 @@ a {
     color: #ffffff;
     font-size: 13.99px;
     line-height: 40px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
     margin: 20px auto 0; 
     padding: 0 10px;
 }
@@ -214,10 +211,8 @@ p {
     Font-family: 'Montserrat';
     font-weight: 700;
     line-height: 40px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
+    
 }
 
 .btn-second a{
