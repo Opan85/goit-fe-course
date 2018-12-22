@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-    background-image: url(/img/bg-pc.png);
+    background-image: url(./img/bg-pc.png);
     background-color: #333333;
     background-repeat: no-repeat;
     background-size: cover;
