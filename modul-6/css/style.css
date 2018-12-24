@@ -65,16 +65,14 @@ a {
    transition:opacity 200ms linear; 
 }
 
-.menu li:hover a::after {
+.menu a:hover::after {
    opacity: 1;
    color: #f38181;
-  
 }
 
 .menu a:hover,
 .menu a:focus {
     color: #f38181;
-    transform: scale(1.1);
 }
 
 .service, .carsd, .footer {
@@ -345,11 +343,10 @@ button {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    transition: width 200ms linear;
+    transition: transform 200ms linear;
 }
 
 button:hover {
-   width: 160px;
    background-color: #f59191;
 }
 
