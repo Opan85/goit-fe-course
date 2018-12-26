@@ -1,8 +1,7 @@
 @media (min-width: 768px) { 
     
     .wrapper {
-        background-image: url(../img/bg-pc.png);
-        min-width: 748px;
+       min-width: 748px;
     }
 
     .header {
@@ -75,7 +74,6 @@
 @media (min-width:940px) {
     
     .wrapper {
-        background-image: url(../img/bg-pc.png);
         max-width: 100%;
     }
     .header {
