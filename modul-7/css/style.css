@@ -9,7 +9,7 @@
     box-sizing: inherit;
 }
 
-.section {
+.first, .second {
     margin-bottom: 128px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .third {
-   background: url(/img/bgmap.png) #222222 no-repeat right bottom;
+   background: url(../img/bgmap.png) #222222 no-repeat right bottom;
 }
 
 .white {
