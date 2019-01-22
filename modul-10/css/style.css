@@ -41,7 +41,7 @@
             align-items: baseline;
     font-family: 'Montserrat', sans-serif;
     padding-top: 40px;
-    padding-bottom: 190px;
+    padding-bottom: 170px;
 }
 
 .nav-menu {
@@ -129,14 +129,19 @@
     font-size: 72px;
     color: #ffffff;
     z-index: 11;
-    margin-bottom: 70px;
+    margin: 0;
+    margin-bottom: 70px;  
 }
 
 .head-title__title {
     font-size: 150px;
     color: #ffffff;
-    margin-bottom: 124px;
     z-index: 11;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 120px;
+    letter-spacing: -5px;
+    line-height: 1em;
 }
 
 .header-btn {
@@ -152,6 +157,7 @@
     line-height: 40px;
     text-transform: uppercase;
     font-weight: 700;
+    
 }
 
 .service {
@@ -484,4 +490,3 @@
         background: url(../img/head-bg@2x.jpg);
     }
 }
-
