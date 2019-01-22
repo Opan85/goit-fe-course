@@ -488,5 +488,11 @@
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2/1), (min-resolution:2dppx) {
     .header {
         background: url(../img/head-bg@2x.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
     }
 }
+    
+
