@@ -25,7 +25,7 @@
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -419,9 +419,11 @@
     fill: #f38181;
 }
 
-.icons-wrapper__icon-svg:hover {
+.icons-wrapper__social-icon:hover .icons-wrapper__icon-svg {
     fill: #ffffff;
 }
+
+
 
 .footer {
     display: -webkit-box;
@@ -491,6 +493,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        width: 100%;
        
     }
 }
