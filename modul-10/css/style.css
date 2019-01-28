@@ -117,7 +117,7 @@
 }
 
 .text {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script',cursive;
 }
 
 .title {
@@ -142,6 +142,7 @@
     padding-bottom: 120px;
     letter-spacing: -5px;
     line-height: 1em;
+    font-weight: 700;
 }
 
 .header-btn {
@@ -156,8 +157,7 @@
     color: #ffffff;
     line-height: 40px;
     text-transform: uppercase;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
 
 .service {
@@ -167,6 +167,7 @@
 .section__title {
     text-align: center;
     padding-top: 50px;
+
 }
 
 .service-title {
@@ -176,6 +177,7 @@
 .text__section {
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 26px;
 }
 
 .title__section {
@@ -264,13 +266,13 @@
             align-items: center;
 }
 
-.Cards-title {
-    padding-bottom: 50px;
+.cards-title {
+    padding-bottom:48px;
 }
 
 .cards-title__subtitles-text {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .carsd {
@@ -281,6 +283,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -294,7 +297,7 @@
 .cards-box__title {
     font-size: 14px; 
     font-weight: 400;
-    color: #666666;
+    color: #333333;
 }
 
 .cards-box__subtitle {
@@ -302,12 +305,13 @@
     font-weight: 300;
     font-style: italic;
     color: #b3b3b3;
+    padding-top: 10px;
 }
 
 .card-container {
     position: relative;
     width: 380px; 
-    height: 472px;
+    height: 470px;
     z-index: 1;
     -webkit-transition: 200ms linear;
     -o-transition: 200ms linear;
@@ -417,6 +421,7 @@
         -ms-transform: translate(50%, 50%);
             transform: translate(50%, 50%);
     fill: #f38181;
+    
 }
 
 .icons-wrapper__social-icon:hover .icons-wrapper__icon-svg {
